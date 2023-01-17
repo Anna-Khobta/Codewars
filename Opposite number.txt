@@ -1,0 +1,4 @@
+function opposite(number) {
+  return result = (number * (-1))
+  //your code here
+}
