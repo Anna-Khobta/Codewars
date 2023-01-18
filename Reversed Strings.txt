@@ -1,0 +1,6 @@
+function solution(str){
+  let splitString = str.split('') // разделяем строку на отдельные элементы 
+  let reverseString = splitString.reverse() // меняем элементы местами на противоположные 
+  let joinString = reverseString.join('') // соединяем обратно 
+  return joinString
+}
