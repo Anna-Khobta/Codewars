@@ -1,0 +1,5 @@
+function makeNegative(num) {
+  let result = 0 // можно без этой строки
+  return result = -Math.abs(num)
+
+}
