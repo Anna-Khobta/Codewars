@@ -1,0 +1,10 @@
+Square(n) Sum
+
+
+function squareSum(numbers){
+  let newNumbers = 0
+  for (i = 0 ; i < numbers.length; i++) {
+    newNumbers += (numbers[i] ** 2) // Square a number using the exponentiation operator
+  }
+return newNumbers
+}
