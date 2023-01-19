@@ -1,0 +1,22 @@
+var summation = function (num) {
+    let sum = 0
+    for(let i = 0; i <= num; i++) {
+        sum += i
+    }
+    return sum
+}
+
+
+// Write a program that finds the summation of every number from 1 to number. The number will always be a positive integer greater than 0.
+
+
+// variant 2 (gauss summation formula )
+// var summation = function (num) {
+//     return num * (num + 1) / 2
+// }
+
+
+// recursion
+// var summation = function (num) {
+//    return num ? num + summation(num - 1) : num
+// }
