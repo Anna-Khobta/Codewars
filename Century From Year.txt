@@ -1,0 +1,16 @@
+function century(year) {
+  let result
+  if (Math.floor(year % 100) === 0) {
+    return result = Math.floor(year/100)
+  } else {
+   return result = Math.round(Math.floor(year/100) + 1)
+  }
+  
+  return result
+  }
+
+
+
+variant 2
+function century(year) {
+ return Math.ceil(year/100)// Метод Math.ceil() - округление вверх
