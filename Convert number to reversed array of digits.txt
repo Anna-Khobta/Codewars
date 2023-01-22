@@ -1,0 +1,16 @@
+function digitize(n) {
+ let myFunc = num => Number(num) // функция чтобы каждое значение строки переводить в число 
+  let result = Array.from(String(n), myFunc).reverse()
+      return result
+  
+}
+
+Либо так покороче 
+
+function digitize(n) {
+  let result = Array.from(String(n), Number).reverse()
+      return result
+  
+}
+
+// получим  35231 -> [1,3,2,5,3]
