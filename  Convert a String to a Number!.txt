@@ -1,0 +1,3 @@
+const stringToNumber = function(str){
+  return Number(str); // if Number('123') => 123
+}
