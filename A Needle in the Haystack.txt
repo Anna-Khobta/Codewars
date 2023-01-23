@@ -1,0 +1,12 @@
+function findNeedle(haystack) {
+ return result = "found the needle at position " + haystack.indexOf('needle')
+}
+
+
+
+// function findNeedle(array) {
+// for (var i=0; i<array.length; i++){
+//   if (array[i] === 'needle')
+//     return 'found the needle at position ' + i;
+// }
+// }
