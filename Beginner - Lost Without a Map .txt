@@ -1,0 +1,6 @@
+function maps(x){
+return result = x.map((x) => x * 2);
+}
+
+
+// result равен [2, 8, 18], а maps всё ещё равен [1, 4, 9]
