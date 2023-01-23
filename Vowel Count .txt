@@ -1,0 +1,16 @@
+function getCount(str) {
+  let result = 0
+  for (i = 0; i <str.length; i++ ) {
+      if (str[i].includes( 'a' ) || (str[i].includes('e')) || (str[i].includes('i')) || (str[i].includes('o')) || (str[i].includes('u')) ) {
+    ++result
+  }
+    }
+  return result
+}
+
+
+
+
+function getCount(str) {
+  return (str.match(/[aeiou]/ig)||[]).length;
+}
