@@ -1,0 +1,17 @@
+function countPositivesSumNegatives(input) {
+  let a = 0
+  let b = 0
+  let c = []
+  let result = []
+  if (input == null || input.length < 1) {
+  return []
+  } else {
+    for (i = 0; i < input.length; i++) {
+    if (input[i] > 0) {
+      a ++
+    } else if (input[i] < 0){
+      b += input[i]
+    }
+  }
+  } return result = [a, b]
+}
