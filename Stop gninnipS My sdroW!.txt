@@ -1,0 +1,13 @@
+function spinWords(string){
+  let stringSplit = string.split(" ") // split in several words 
+
+  for (i = 0; i < stringSplit.length; i++ ) {
+    if (stringSplit[i].length >= 5 ) {
+      const a = stringSplit[i]
+      const res = a.split('').reverse().join('')
+      stringSplit[i] = res
+    } 
+    
+  } return stringSplit.join(' ')
+ 
+}
