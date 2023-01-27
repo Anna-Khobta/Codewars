@@ -13,3 +13,23 @@ function squareDigits(num){
 // Example #2: An input of 765 will/should return 493625 because 72 is 49, 62 is 36, and 52 is 25. (49-36-35)
 
 // Note: The function accepts an integer and returns an integer.
+
+
+
+var2
+
+function squareDigits(num){
+    var string = num.toString();
+    var results = [];
+    for (var i = 0; i < string.length; i++){
+        results[i] = string[i] * string[i];
+    }
+    return Number(results.join(''));
+};
+
+
+var3
+
+function squareDigits(num){
+  return +num.toString().split('').map(i => i*i).join('');
+}
