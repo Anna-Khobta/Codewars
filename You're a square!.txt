@@ -16,3 +16,14 @@ var isSquare = function(n){
 //  4  =>  true
 // 25  =>  true
 // 26  =>  false
+
+
+
+var2
+var isSquare = function(n){
+
+	if((Math.sqrt(n) % 1) == 0)
+		return true;
+	else
+		return false;
+}
