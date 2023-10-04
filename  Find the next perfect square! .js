@@ -7,3 +7,12 @@ function findNextSquare(sq) {
   }
   
 }
+
+
+
+function findNextSquare(sq) {
+  return Math.sqrt(sq)%1 ? -1 : Math.pow(Math.sqrt(sq)+1,2);
+}
+
+// Math.pow(base, exponent) 
+// base = Основание степени; exponent  = Показатель степени, в которую возводится основание base.
