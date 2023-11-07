@@ -18,3 +18,8 @@ function findOdd(A) {
 const findOdd = (xs) => xs.reduce((a, b) => a ^ b);
 
 // ^ оператор битовых исключающих ИЛИ
+
+
+function findOdd(arr) {
+  return arr.find((item, index) => arr.filter(el => el == item).length % 2)
+}
