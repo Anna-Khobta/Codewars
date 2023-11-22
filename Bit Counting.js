@@ -18,3 +18,6 @@ let countBits = function(n) {
   });
   return count;
 };
+
+
+countBits = n => n.toString(2).split('0').join('').length;
