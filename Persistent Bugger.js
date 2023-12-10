@@ -1,4 +1,4 @@
-function persistence(num) {
+function persistence1(num) {
   let count = 0;
   while(num.toString().length > 1){
     num = num.toString().split('').reduce((acc,el)=>acc *= +el,1)
